@@ -47,9 +47,7 @@ This unit explores advanced data analytics methods for effective marketing plann
 ### **Return on Ad Spend (ROAS)**
 - **Definition**: ROAS measures the effectiveness of advertising campaigns by calculating the revenue generated for every dollar spent on advertising.
 - **Formula**: 
-  \[
-  \text{ROAS} = \frac{\text{Revenue from Ads}}{\text{Cost of Ads}}
-  \]
+**ROAS** = (Revenue from Ads) / (Cost of Ads)
 - **Purpose**: To determine the profitability of ad campaigns and evaluate their impact on revenue generation.
 - **Example**:
   - If a campaign costs $1,000 and generates $5,000 in revenue, ROAS = $5,000 / $1,000 = 5. This means that for every dollar spent on ads, five dollars in revenue were generated.
@@ -57,12 +55,20 @@ This unit explores advanced data analytics methods for effective marketing plann
 ### **Return on Investment (ROI)**
 - **Definition**: ROI measures the overall profitability of an investment by comparing the net profit to the cost of the investment.
 - **Formula**: 
-  \[
-  \text{ROI} = \frac{\text{Net Profit}}{\text{Cost of Investment}} \times 100
-  \]
+**ROI** = (Net Profit / Cost of Investment) × 100
+
 - **Purpose**: To assess the overall success of marketing investments and their impact on business profitability.
 - **Example**:
-  - If an investment costs $2,000 and generates a net profit of $6,000, ROI = \(\frac{6,000 - 2,000}{2,000} \times 100 = 200\%\). This means the investment generated a 200% return on the initial cost.
+  - If an investment costs $2,000 and generates a net profit of $6,000, the Return on Investment (ROI) is calculated as follows:
+
+**ROI** = (Net Profit / Cost of Investment) × 100
+
+Substitute the values:
+
+**ROI** = ((6,000 - 2,000) / 2,000) × 100 = 200%
+
+This means the investment generated a 200% return on the initial cost.
+
 
 ## 4. Customer Lifetime Value (CLV) and Why It Matters
 

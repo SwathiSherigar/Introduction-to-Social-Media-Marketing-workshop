@@ -16,7 +16,7 @@ This provides an in-depth exploration of social media marketing, from fundamenta
 - **8 C’s of Strategy Development**
 - **Self-Promotion and Building Advocates**
 
-## Unit 2: Target Markets on Social Web
+### **[ Unit 2: Target Markets on Social Web].(Unit2.md)**
 
 - **Importance of Audience Targeting**
 - **SMM Targeting Process and Role of Big Data**
@@ -25,7 +25,7 @@ This provides an in-depth exploration of social media marketing, from fundamenta
 - **Social Media Engagement Practices**
 - **SMM Ethics and Entry Strategies**
 
-## Unit 3: Tools for Managing Social Media
+### **[Unit 3: Tools for Managing Social Media].(Unit3.md)**
 
 - **Types of SMM Tools and Usability**
 - **Tools vs. Apps**
@@ -34,7 +34,7 @@ This provides an in-depth exploration of social media marketing, from fundamenta
 - **White Label Social Networking**
 - **Social Media Best Practices**
 
-## Unit 4: Forms of Social Media Marketing
+### **[Unit 4: Forms of Social Media Marketing].(Unit4.md)**
 
 - **Facebook Marketing**
   - Practical Sessions: Creating Pages, Ads, and Campaigns
@@ -45,14 +45,14 @@ This provides an in-depth exploration of social media marketing, from fundamenta
 - **Instagram Marketing**
   - Account Setup, Content Strategy, Ads, and IGTV
 
-## Unit 5: Data Analytics Methods for Marketing
+### **[Unit 5: Data Analytics Methods for Marketing].(Unit5.md)**
 
 - **Introduction to Data Analytics Methods**
 - **Segmentation and Programmatic Creative**
 - **Clustering Methods: K-Means Clustering**
 - **Describing Segments**
 
-## Unit 6: Analytics for Planning and Forecasting
+### **[Unit 6: Analytics for Planning and Forecasting].(Unit6.md)**
 
 - **The Sales Funnel & Marketing Metrics**
 - **Descriptive vs. Predictive Metrics**

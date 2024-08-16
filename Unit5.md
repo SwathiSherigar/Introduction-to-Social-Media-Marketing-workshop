@@ -90,5 +90,183 @@ This unit delves into the essential data analytics methods that drive effective 
 - **Characterization**: Analyzing each cluster to understand the common features or behaviors of data points within it. This includes demographic details, purchasing patterns, and preferences.
 - **Application**: Using the insights gained from clusters to tailor marketing strategies, create targeted content, and improve engagement with each segment.
 
+## 5. Practical Session: Market Segmentation Using K-Means Clustering
+
+### **Objective**
+In this practical session, you will implement K-Means clustering on a sample dataset to segment customers based on their income and spending score. By the end of this session, you should be able to:
+- Understand the process of clustering using K-Means.
+- Visualize and interpret the results of clustering.
+- Apply clustering insights to improve marketing strategies.
+
+### **1. Setup and Data Preparation**
+
+#### **1.1 Import Required Libraries**
+
+```python
+import pandas as pd
+import numpy as np
+from sklearn.cluster import KMeans
+import matplotlib.pyplot as plt
+import seaborn as sns
+```
+#### **1.2 Load and Explore the Data**
+
+In this section, we will load and explore a sample dataset containing customer demographic and behavior data. Below is the code used to create and view the sample data.
+
+```python
+# Sample data creation for demonstration
+import pandas as pd
+
+data = {
+    'Age': [25, 34, 45, 23, 33, 31, 50, 35, 41, 39],
+    'Income': [40000, 60000, 80000, 35000, 70000, 50000, 90000, 62000, 77000, 68000],
+    'Spending_Score': [65, 55, 70, 50, 80, 63, 45, 73, 68, 77]
+}
+
+df = pd.DataFrame(data)
+print(df.head())
+```
+### **2. Implementing K-Means Clustering**
+
+#### **2.1 Visualize the Data**
+
+Before applying K-Means clustering, it's important to visualize the data to understand its distribution. The following code snippet demonstrates how to create a scatter plot of customer income versus spending score.
+
+```python
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Visualize the data
+sns.scatterplot(x='Income', y='Spending_Score', data=df, s=100)
+plt.title('Customer Income vs Spending Score')
+plt.xlabel('Income')
+plt.ylabel('Spending Score')
+plt.show()
+
+```
+#### **2.2 Apply K-Means Clustering**
+
+In this section, we apply the K-Means clustering algorithm to segment customers based on their income and spending score.
+
+```python
+from sklearn.cluster import KMeans
+
+# Defining the model with 3 clusters
+kmeans = KMeans(n_clusters=3, random_state=42)
+
+# Fitting the model
+kmeans.fit(df[['Income', 'Spending_Score']])
+
+# Assigning clusters to each data point
+df['Cluster'] = kmeans.labels_
+
+print(df.head())
+```
+### **3. Analyzing and Visualizing Clusters**
+
+#### **3.1 Plot Clusters**
+
+Visualize the clusters and their centroids to understand how the data points are distributed across different clusters.
+
+```python
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Visualizing the clusters
+sns.scatterplot(x='Income', y='Spending_Score', hue='Cluster', data=df, palette='viridis', s=100)
+plt.scatter(kmeans.cluster_centers_[:, 0], kmeans.cluster_centers_[:, 1], s=300, c='red', label='Centroids')
+plt.title('Customer Segments Based on Income and Spending Score')
+plt.xlabel('Income')
+plt.ylabel('Spending Score')
+plt.legend()
+plt.show()
+
+```
+#### **3.2 Describe Each Cluster**
+
+Analyze the clusters to understand the characteristics of each customer segment.
+
+```python
+# Summarizing each cluster
+cluster_summary = df.groupby('Cluster').mean()
+print(cluster_summary)
+```
+### **4. Optimizing the Number of Clusters**
+
+#### **4.1 Elbow Method**
+
+The elbow method helps determine the optimal number of clusters for the K-Means algorithm by plotting the sum of squared distances (SSE) for different numbers of clusters.
+This code performs the following:
+
+- **Calculates SSE**: Computes the sum of squared distances between data points and their assigned cluster centers for different numbers of clusters.
+- **Plots the Elbow Curve**: Creates a plot showing how SSE changes with the number of clusters.
+- **Identifies the Optimal Number of Clusters**: The "elbow" of the curve indicates the optimal number of clusters where adding more clusters does not significantly improve the model.
+
+By examining the plot, you can identify the point where increasing the number of clusters yields diminishing returns, helping you select the most suitable number of clusters for your data.
 
 
+```python
+from sklearn.cluster import KMeans
+import matplotlib.pyplot as plt
+
+# Calculating the sum of squared distances for different numbers of clusters
+sse = []
+for k in range(1, 10):
+    kmeans = KMeans(n_clusters=k, random_state=42)
+    kmeans.fit(df[['Income', 'Spending_Score']])
+    sse.append(kmeans.inertia_)
+
+# Plotting the elbow curve
+plt.plot(range(1, 10), sse, marker='o')
+plt.title('Elbow Method for Optimal Number of Clusters')
+plt.xlabel('Number of Clusters')
+plt.ylabel('Sum of Squared Distances')
+plt.show()
+```
+#### **4.2 Silhouette Score**
+
+Evaluate the clustering results using the silhouette score to measure how similar each point is to its own cluster compared to other clusters.
+
+This code performs the following:
+
+- **Calculates the Silhouette Score**: Computes the silhouette score, which quantifies how well each data point fits within its cluster compared to other clusters. A higher score indicates better-defined clusters.
+
+```python
+from sklearn.metrics import silhouette_score
+
+# Calculating the silhouette score
+score = silhouette_score(df[['Income', 'Spending_Score']], df['Cluster'])
+print(f'Silhouette Score: {score:.2f}')
+```
+### **5. Applying Insights to Marketing Strategies**
+
+#### **5.1 Segmentation-Based Marketing**
+
+Use the insights from clustering to develop targeted marketing strategies for each customer segment.
+
+**Segment 1: High Income, High Spending**
+
+- **Characteristics**: Customers in this segment have high incomes and high spending scores. They are likely to be your most valuable customers.
+- **Marketing Strategy**:
+  - **Premium Offers**: Create and promote premium products or exclusive services.
+  - **Loyalty Programs**: Implement loyalty programs offering special rewards or VIP experiences.
+  - **Personalized Campaigns**: Use personalized marketing campaigns highlighting luxury and exclusivity.
+  - **Upselling**: Encourage upselling by offering complementary high-end products.
+
+**Segment 2: Middle Income, Medium Spending**
+
+- **Characteristics**: Customers with middle incomes and moderate spending scores. They are price-conscious but willing to spend on quality.
+- **Marketing Strategy**:
+  - **Value-Based Promotions**: Offer discounts, bundles, or value-based promotions.
+  - **Educational Content**: Provide content that educates them on the value of your products.
+  - **Loyalty Discounts**: Introduce loyalty discounts for repeat purchases.
+  - **Product Recommendations**: Use targeted recommendations based on purchasing history.
+
+**Segment 3: Low Income, Low Spending**
+
+- **Characteristics**: Customers with lower incomes and spending scores. They are more selective with purchases.
+- **Marketing Strategy**:
+  - **Discounted Offers**: Highlight discounts, sales, or budget-friendly options.
+  - **Basic Products**: Promote essential products that meet their needs.
+  - **Referral Programs**: Implement referral programs to incentivize bringing in new customers.
+  - **Seasonal Promotions**: Focus on significant seasonal promotions.

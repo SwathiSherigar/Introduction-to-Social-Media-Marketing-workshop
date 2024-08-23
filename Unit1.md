@@ -38,7 +38,7 @@ This unit provides a comprehensive introduction to social media marketing, cover
 - Positive WOM in earned media can provide a significant boost to the brand.
 
 
-### 2. **The Seven Myths of SMM**
+## 2. **The Seven Myths of SMM**
 
 **SMM** is one of the best ways businesses can drive sales, build relationships, and satisfy their customers. Although social media has increased in popularity over the years as a marketing tool, some common misconceptions persist. Here are seven of the most common myths about SMM:
 

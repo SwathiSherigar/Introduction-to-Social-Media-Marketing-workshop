@@ -38,7 +38,7 @@ This unit provides a comprehensive introduction to social media marketing, cover
 - Positive WOM in earned media can provide a significant boost to the brand.
 
 
-### The Seven Myths of SMM
+### 2. **The Seven Myths of SMM**
 
 **SMM** is one of the best ways businesses can drive sales, build relationships, and satisfy their customers. Although social media has increased in popularity over the years as a marketing tool, some common misconceptions persist. Here are seven of the most common myths about SMM:
 
@@ -288,7 +288,7 @@ Creating an effective social media plan is an ongoing process, as depicted in th
 
 
 
-## 7. **Setting Goals and Objectives in Social Media Marketing**
+## 6. **Setting Goals and Objectives in Social Media Marketing**
 
 ### **1. Importance of Listening and Observing**
 - **Social Media Listening**: The Cisco example demonstrates the importance of monitoring various social media platforms to understand the target audience's location, behavior, tastes, and needs. This helps in setting optimal goals and determining suitable strategies for social media marketing (SMM).
@@ -353,7 +353,7 @@ Creating an effective social media plan is an ongoing process, as depicted in th
 - **Time-bound**: Specified timeframe for achieving objectives.
 
 
-## 8. 8 C’s of Strategy Development
+## 7. 8 C’s of Strategy Development
 
 
 1. **Categorize** social media platforms by target market relevancy.
@@ -373,7 +373,7 @@ Creating an effective social media plan is an ongoing process, as depicted in th
 8. **Convert** relationships built in social media to the behaviors specified in the objectives.
 
 
-## 9. Self-Promotion and Building an Army of Advocates
+## 8. Self-Promotion and Building an Army of Advocates
 
 
 - **Final Strategy Point**:
@@ -394,7 +394,7 @@ Creating an effective social media plan is an ongoing process, as depicted in th
   - **Building Relationships**: Effective relationship-building with advocates provides long-term value.
 
 - **Influence on Purchase Decisions**:
-  - **Figure 2.7: Factors That Influence Purchase Decisions**
+
     - **Explanation**: This figure shows the impact of various factors on consumer purchase decisions across the US, UK, Brazil, and China. Word of mouth is identified as the leading influence on purchasing decisions, surpassing traditional advertising. Online reviews from consumers and experts also significantly influence purchasing choices, while posts from friends and family vary in importance by country.
 
 <p align="center">

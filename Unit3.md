@@ -464,6 +464,10 @@ inspiration and creativity.
 
    *Table 5.6: This table shows the growth of Instagram users in the U.S., detailing the number of users, their percentage of the population, and annual percentage changes.*
 
+## **Quiz Section**
 
+Please take the following quiz:
+
+[https://forms.gle/2x28dx1HcxZZt79p7](https://forms.gle/2x28dx1HcxZZt79p7)
 
 

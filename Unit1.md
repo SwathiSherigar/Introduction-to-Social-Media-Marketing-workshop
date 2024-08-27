@@ -417,6 +417,6 @@ Creating an effective social media plan is an ongoing process, as depicted in th
 
 Please take the following quiz:
 
-[https://docs.google.com/forms/d/e/1FAIpQLSdBtJsT4jafE5BwBGuRK4YuqwProQuk1-femr1dOWlrN26oOQ/viewform?usp=sharing](https://docs.google.com/forms/d/e/1FAIpQLSdBtJsT4jafE5BwBGuRK4YuqwProQuk1-femr1dOWlrN26oOQ/viewform?usp=sharing)
+[https://forms.gle/EK2bE3cwhYDfwV8k7](https://forms.gle/EK2bE3cwhYDfwV8k7)
 
 

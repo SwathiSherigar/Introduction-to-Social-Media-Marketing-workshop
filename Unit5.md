@@ -270,3 +270,9 @@ Use the insights from clustering to develop targeted marketing strategies for ea
   - **Basic Products**: Promote essential products that meet their needs.
   - **Referral Programs**: Implement referral programs to incentivize bringing in new customers.
   - **Seasonal Promotions**: Focus on significant seasonal promotions.
+
+  ## **Quiz Section**
+
+Please take the following quiz:
+
+[https://forms.gle/6BsAtRBpPiGWV9Ke6](https://forms.gle/6BsAtRBpPiGWV9Ke6)

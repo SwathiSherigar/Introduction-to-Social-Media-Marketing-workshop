@@ -275,3 +275,10 @@ plt.ylabel('Predicted Sales')
 plt.title('Actual vs. Predicted Sales')
 plt.show()
  ```
+
+
+## **Quiz Section**
+
+Please take the following quiz:
+
+[https://forms.gle/8f4WW8TB7DjXxbZV7](https://forms.gle/8f4WW8TB7DjXxbZV7)

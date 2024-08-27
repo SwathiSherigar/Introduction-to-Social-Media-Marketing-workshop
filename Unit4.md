@@ -258,3 +258,9 @@ This unit provides a comprehensive exploration of social media marketing strateg
 **Step 5: Examples of Brand Utilization**
 - **Case Study 1**: Using IGTV for behind-the-scenes content.
 - **Case Study 2**: Leveraging IGTV for educational tutorials.
+
+## **Quiz Section**
+
+Please take the following quiz:
+
+[https://forms.gle/TPkNp6RTSQXGvDEf8](https://forms.gle/TPkNp6RTSQXGvDEf8)

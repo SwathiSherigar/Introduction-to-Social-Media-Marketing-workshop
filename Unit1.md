@@ -413,3 +413,10 @@ Creating an effective social media plan is an ongoing process, as depicted in th
   - **Natural Recommendations**: Positive relationships with advocates lead to organic, unpaid recommendations.
   - **Goodwill and Increased Sales**: Building these relationships results in goodwill and can drive future sales.
 
+## **Quiz Section**
+
+Please take the following quiz:
+
+[https://docs.google.com/forms/d/e/1FAIpQLSdBtJsT4jafE5BwBGuRK4YuqwProQuk1-femr1dOWlrN26oOQ/viewform?usp=sharing](https://docs.google.com/forms/d/e/1FAIpQLSdBtJsT4jafE5BwBGuRK4YuqwProQuk1-femr1dOWlrN26oOQ/viewform?usp=sharing)
+
+

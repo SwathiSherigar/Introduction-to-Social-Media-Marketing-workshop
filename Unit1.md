@@ -412,6 +412,13 @@ Creating an effective social media plan is an ongoing process, as depicted in th
 - **Long-Term Benefits**:
   - **Natural Recommendations**: Positive relationships with advocates lead to organic, unpaid recommendations.
   - **Goodwill and Increased Sales**: Building these relationships results in goodwill and can drive future sales.
+ 
+## **Video Section**
+
+**2024 Instagram Marketing Guide: Strategies and Best Practices for Social Media Success**
+- [https://youtu.be/_ldM7mPC5ls?si=BDjSHY5lQA3uCl3](https://youtu.be/_ldM7mPC5ls?si=BDjSHY5lQA3uCl3)
+
+
 
 ## **Quiz Section**
 

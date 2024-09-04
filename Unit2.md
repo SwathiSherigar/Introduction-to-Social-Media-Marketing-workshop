@@ -58,6 +58,9 @@ Audience targeting is a strategic approach that focuses marketing efforts on spe
 8. **Platform Assistance**:
    - **Targeting Tools**: Each social media platform offers tools to help marketers target specific audiences effectively.
    - **Examples**: Various platforms provide different programs and features for audience targeting.
+  
+## **Video Resource**
+To provide a practical perspective on finding and understanding your target audience, watch the video titled [*How to Find Your Target Audience on Social Media - 4 Key Steps!*](https://youtu.be/vYsxx76mUCg?si=kMp_fUAu_lOO79nG). This video outlines actionable steps to help you identify and engage with your target market effectively.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/09f1dc01-e779-4d9f-bca9-7f5edf72758f">
@@ -212,6 +215,8 @@ By leveraging these advanced targeting methods, marketers can achieve more preci
 - **Market Research**: Conduct thorough research to understand the competitive landscape, audience needs, and market trends. Market research provides valuable insights that inform your strategy and approach, helping you make informed decisions.
 - **Strategy Development**: Create a comprehensive social media strategy based on your research findings. Your strategy should include clear objectives, a detailed content plan, and a timeline for execution, ensuring a structured approach to achieving your goals.
 - **Implementation**: Execute your strategy with a focus on achieving measurable outcomes. Regularly review progress, analyze results, and make adjustments as needed to stay aligned with your goals and ensure the success of your campaigns.
+
+
 
 ## **Quiz Section**
 

@@ -416,7 +416,7 @@ Creating an effective social media plan is an ongoing process, as depicted in th
 ## **Video Section**
 
 **2024 Instagram Marketing Guide: Strategies and Best Practices for Social Media Success**
-- [https://youtu.be/_ldM7mPC5ls?si=BDjSHY5lQA3uCl3](https://youtu.be/_ldM7mPC5ls?si=BDjSHY5lQA3uCl3)
+[https://youtu.be/_ldM7mPC5ls?si=BDjSHY5lQA3uCl3](https://youtu.be/_ldM7mPC5ls?si=BDjSHY5lQA3uCl3)
 
 
 

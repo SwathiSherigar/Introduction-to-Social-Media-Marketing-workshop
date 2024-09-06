@@ -22,6 +22,9 @@ This unit provides a comprehensive exploration of social media marketing strateg
 - Configure messaging preferences to enable or disable Messenger for business inquiries.
 - Adjust notification settings for Page updates and interactions.
 
+### **Video Reference**
+[https://youtu.be/CM7rsahnHPc](https://youtu.be/CM7rsahnHPc)
+
 #### Fan Page Wall Posting
 
 **Step 1: Content Strategy**
@@ -35,6 +38,10 @@ This unit provides a comprehensive exploration of social media marketing strateg
 **Step 3: Engagement**
 - Increase engagement by asking questions, running polls, and using clear calls to action.
 - Monitor and respond to comments and messages promptly.
+
+### **Video Reference**
+[https://youtu.be/bQgUTPtSkFY?si=L3HMzRwixiiwfIpz](https://youtu.be/bQgUTPtSkFY?si=L3HMzRwixiiwfIpz)
+
 
 #### Increasing Fans on Fan Page
 
@@ -88,6 +95,11 @@ This unit provides a comprehensive exploration of social media marketing strateg
 **Step 5: Advanced Tools**
 - Explore Power Editor and Qwaya for advanced ad management and optimization.
 
+### **Video Reference**
+[https://youtu.be/9EsTXdeVIlw?si=ufL19nLcwITh2Or-](https://youtu.be/9EsTXdeVIlw?si=ufL19nLcwITh2Or-)
+
+
+
 ### 2. LinkedIn Marketing
 
 #### LinkedIn Profiles vs. Company Pages
@@ -127,6 +139,10 @@ This unit provides a comprehensive exploration of social media marketing strateg
 - **Share Content**: Post relevant articles, questions, and updates.
 - **Network**: Connect with other professionals through group interactions.
 
+### **Video Reference**
+[https://youtu.be/wgE4VmqnQ_U?si=f7R1QGMjMGtiHhZF](https://youtu.be/wgE4VmqnQ_U?si=f7R1QGMjMGtiHhZF)
+
+
 #### LinkedIn Advertising
 
 **Step 1: Ad Types**
@@ -146,6 +162,9 @@ This unit provides a comprehensive exploration of social media marketing strateg
 **Step 4: ROI Measurement**
 - **Analyze Metrics**: Track click-through rates (CTR), conversion rates, and engagement.
 - **Adjust Strategies**: Refine your campaigns based on performance data.
+
+### **Video Reference**
+  [https://youtu.be/wgE4VmqnQ_U?si=f7R1QGMjMGtiHhZF](https://youtu.be/wgE4VmqnQ_U?si=f7R1QGMjMGtiHhZF)
 
 #### LinkedIn Publishing
 
@@ -198,6 +217,9 @@ This unit provides a comprehensive exploration of social media marketing strateg
 
 **Step 2: Consequences**
 - Understand the risks such as account suspension and damage to brand reputation.
+
+### **Video Reference**  
+[https://youtu.be/l11Ay_MFWDk](https://youtu.be/l11Ay_MFWDk)
 
 ### 4. Instagram Marketing
 
@@ -259,6 +281,8 @@ This unit provides a comprehensive exploration of social media marketing strateg
 - **Case Study 1**: Using IGTV for behind-the-scenes content.
 - **Case Study 2**: Leveraging IGTV for educational tutorials.
 
+### **Video Reference**
+[https://youtu.be/b_gvwR1pg5I?si=4s6wWHaaaNGNbsxj](https://youtu.be/b_gvwR1pg5I?si=4s6wWHaaaNGNbsxj)
 ## **Quiz Section**
 
 Please take the following quiz:

@@ -926,6 +926,12 @@ plt.show()
 - **Pair Plot:** Visualizes pairwise relationships between features (`Views` and `Likes`) and color-codes by cluster.
 
 - **Elbow Method for Optimal K**
+The elbow method helps determine the optimal number of clusters for the K-Means algorithm by plotting the sum of squared distances (SSE) for different numbers of clusters.
+This code performs the following:
+
+- **Calculates SSE**: Computes the sum of squared distances between data points and their assigned cluster centers for different numbers of clusters.
+- **Plots the Elbow Curve**: Creates a plot showing how SSE changes with the number of clusters.
+- **Identifies the Optimal Number of Clusters**: The "elbow" of the curve indicates the optimal number of clusters where adding more clusters does not significantly improve the model.
 
 **Code:**
 
@@ -949,13 +955,7 @@ plt.ylabel('Sum of Squared Distances')
 plt.show()
 ```
 
-**Explanation:**
-- **Elbow Method:** Helps determine the optimal number of clusters by plotting the sum of squared distances (inertia). The "elbow
 
-" point indicates the ideal number of clusters.
-After applying the Elbow Method for determining the optimal number of clusters in K-Means clustering, you can include several additional sections in your workshop content to provide a more comprehensive understanding and application of clustering results. Here are some suggestions:
-
----
 
 **Silhouette Score**
 
@@ -990,5 +990,9 @@ print(f'Davies-Bouldin Index: {db_index:.2f}')
 
 **Explanation:**
 - **Davies-Bouldin Index:** Helps assess the clustering quality. Lower values indicate better clustering performance.
+  ## **Quiz Section**
 
+Please take the following quiz:
+
+[https://forms.gle/6BsAtRBpPiGWV9Ke6](https://forms.gle/6BsAtRBpPiGWV9Ke6)
 

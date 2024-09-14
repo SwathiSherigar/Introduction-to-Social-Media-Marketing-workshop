@@ -75,7 +75,7 @@ This unit delves into the essential data analytics methods that drive effective 
 **API Used:** YouTube Data v3
 
 ---
-**API Setup: YouTube Data API**
+## **API Setup: YouTube Data API**
 
 **Objective:** Learn how to set up and generate API credentials for the YouTube Data API to fetch and analyze video data.
 
@@ -301,7 +301,7 @@ Sure, here’s a structured way to incorporate your new content into the existin
 
 ---
 
-### **YouTube Analytics Lab**
+## **YouTube Analytics**
 
 **Platform:** YouTube  
 **API Used:** YouTube Data API v3  

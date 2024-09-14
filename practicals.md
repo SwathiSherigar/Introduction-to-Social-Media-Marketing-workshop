@@ -1,4 +1,4 @@
-# DATA ANALYTICS METHODS FOR MARKETING
+#Data Analytics Methods for Marketing
 
 
 ## Overview
@@ -799,7 +799,20 @@ print(pd.DataFrame(features_normalized, columns=['Views', 'Likes']).head())
 - **Normalization:** Standardize features to ensure equal weight in clustering.
 
 ### **2.3 Apply K-Means Clustering**
+ - **Overview**: K-Means is an algorithm that partitions data into K clusters based on feature similarities. Each cluster is represented by its centroid, which is the mean of the data points within the cluster.
+- **How It Works**:
+  - **Initialization**: Randomly selecting K initial centroids.
+  - **Assignment**: Assigning each data point to the nearest centroid based on distance metrics.
+  - **Update**: Recalculating centroids based on the mean of data points assigned to each cluster.
+  - **Iteration**: Repeating the assignment and update steps until centroids stabilize and no longer change significantly.
 
+### **Determining the Number of Clusters**
+- **Elbow Method**:
+  - **Process**: Plotting the sum of squared distances from data points to their centroids for different values of K.
+  - **Identification**: The "elbow" point on the graph indicates the optimal number of clusters where adding more clusters yields only marginal improvements.
+- **Silhouette Score**:
+  - **Measurement**: Evaluates how similar a data point is to its own cluster compared to other clusters.
+  - **Interpretation**: A higher silhouette score indicates better-defined clusters with clear separation between them.
 **2.3.1 Fit the K-Means Model**
 
 Apply K-Means clustering to the normalized data.
@@ -940,8 +953,42 @@ plt.show()
 - **Elbow Method:** Helps determine the optimal number of clusters by plotting the sum of squared distances (inertia). The "elbow
 
 " point indicates the ideal number of clusters.
+After applying the Elbow Method for determining the optimal number of clusters in K-Means clustering, you can include several additional sections in your workshop content to provide a more comprehensive understanding and application of clustering results. Here are some suggestions:
 
 ---
 
+**Silhouette Score**
+
+The Silhouette Score measures how similar an object is to its own cluster compared to other clusters. It helps evaluate the quality of clustering.
+
+**Code:**
+
+```python
+from sklearn.metrics import silhouette_score
+
+# Calculate Silhouette Score
+silhouette_avg = silhouette_score(features_normalized, kmeans.labels_)
+print(f'Silhouette Score: {silhouette_avg:.2f}')
+```
+
+**Explanation:**
+- **Silhouette Score:** Provides an average measure of how well-separated and distinct the clusters are. Scores closer to 1 indicate well-defined clusters.
+
+**Davies-Bouldin Index**
+
+The Davies-Bouldin Index measures the average similarity ratio of each cluster with its most similar cluster, where a lower value indicates better clustering.
+
+**Code:**
+
+```python
+from sklearn.metrics import davies_bouldin_score
+
+# Calculate Davies-Bouldin Index
+db_index = davies_bouldin_score(features_normalized, kmeans.labels_)
+print(f'Davies-Bouldin Index: {db_index:.2f}')
+```
+
+**Explanation:**
+- **Davies-Bouldin Index:** Helps assess the clustering quality. Lower values indicate better clustering performance.
 
 

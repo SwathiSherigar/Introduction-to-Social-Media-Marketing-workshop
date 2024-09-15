@@ -165,7 +165,7 @@ import json
 - `json`: This module is used to handle JSON data, which is the format used for data returned by the YouTube Data API.
 
 ```python
-api_key = 'AIzaSyBT3GkJ8WUvdum1PGd3aFAXHc3eXgs19Sg'
+api_key = 'XXXXXXXXXXXXXX'
 ```
 
 - **API Key:** This line assigns your YouTube Data API key to the variable `api_key`. The API key is essential for authenticating your requests to the YouTube Data API. Make sure to keep your API key secure and avoid sharing it publicly.

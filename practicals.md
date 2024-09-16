@@ -190,6 +190,56 @@ channel_id = [
     - `"UCJIfeSCssxSC_Dhc5s7woww"`: This ID represents the channel for "lex clips."
     - `"CYI_ychRnL7sJrG6PUSBpQA"`: This ID represents the channel for "cbn news."
 - You will use these channel IDs later in your code to fetch specific data (e.g., videos, playlists, statistics) associated with these channels.
+To get the YouTube Channel IDs, you can follow these steps:
+
+### **1. Method 1: Through YouTube Website**
+
+1. Go to the YouTube channel page for the desired channel.
+2. In the browser’s address bar, the URL will look something like this:  
+   `https://www.youtube.com/channel/UCLwc4plOL_MRHQnpFVTPQnw`
+   
+   Here, the string after `/channel/` is the **Channel ID**. For example:
+   - **Channel ID**: `UCLwc4plOL_MRHQnpFVTPQnw`
+
+3. Alternatively, some URLs might look like this:  
+   `https://www.youtube.com/c/CBNNews`
+   
+   In such cases, replace `/c/` with `/channel/` in the URL and then press Enter. It will redirect you to the new URL that contains the **Channel ID**.
+
+### **2. Method 2: Using YouTube API**
+
+You can retrieve channel IDs programmatically through the YouTube Data API v3 by using the **search.list** method. Here’s an example of how to get the **Channel ID** for specific queries using Python:
+
+```python
+from googleapiclient.discovery import build
+
+# Initialize the YouTube API
+api_key = 'YOUR_API_KEY'
+youtube = build('youtube', 'v3', developerKey=api_key)
+
+# Function to search for channels and get their Channel ID
+def get_channel_id(query):
+    request = youtube.search().list(
+        part="snippet",
+        q=query,
+        type="channel",
+        maxResults=1
+    )
+    response = request.execute()
+    
+    for item in response['items']:
+        print("Channel Name:", item['snippet']['title'])
+        print("Channel ID:", item['snippet']['channelId'])
+        
+# Example usage
+get_channel_id("CBN News")
+get_channel_id("Lex Clips")
+```
+
+- Replace `"YOUR_API_KEY"` with your actual API key.
+- Replace the `query` parameter with the name of the channel you want to search for.
+
+This will output the **Channel ID** of the YouTube channels matching your query.
 
 ### Requesting Data from the API
 
@@ -302,6 +352,48 @@ Sure, here’s a structured way to incorporate your new content into the existin
 ---
 
 ## **YouTube Analytics**
+The provided  below code is performing **YouTube Channel and Video Analytics** through a few key steps, which allow for comprehensive analysis of YouTube data. Here’s an overall view of the types of analysis being done:
+
+### **1. Channel-Level Analysis**
+The code retrieves statistics for YouTube channels and focuses on understanding each channel's overall performance. This includes:
+- **Subscribers**: The number of subscribers each channel has.
+- **Views**: The total number of views for each channel.
+- **Total Videos**: The total number of videos each channel has uploaded.
+- **Visualization**: Scatter plots and bar charts are used to compare subscriber counts, views, and video upload counts across multiple channels. The visualizations help in understanding:
+  - Relationships between the number of subscribers and views.
+  - Comparison of how many videos different channels have uploaded.
+
+### **2. Video-Level Analysis**
+The code also drills down into video-level details for a more granular analysis of content performance. This includes:
+- **Individual Video Statistics**: For each video, the following data is retrieved:
+  - **Title**: The video’s title.
+  - **Published Date**: The date the video was published.
+  - **Views**: The number of views each video has received.
+  - **Likes**: The total number of likes.
+  - **Comments**: The number of comments.
+
+- **Video Upload Trends**: The code extracts the month from the video’s publish date to analyze upload patterns over time. This includes:
+  - Counting how many videos were uploaded each month.
+  - Creating a bar plot to visualize the number of videos uploaded per month.
+
+### **3. Key Insights**
+- **Channel Growth and Popularity**: By comparing subscriber and view counts across multiple channels, you can identify which channels are growing faster or have more engagement.
+- **Content Volume**: The number of videos uploaded by each channel is analyzed, showing the volume of content produced.
+- **Video Engagement**: Views, likes, and comments on individual videos provide insights into how well the audience engages with each piece of content.
+- **Seasonal Upload Patterns**: By analyzing the number of videos uploaded each month, you can identify potential seasonal trends in content production.
+
+### **Overall Purpose**
+The overall purpose of this analysis is to:
+- **Evaluate Channel Performance**: See how channels perform in terms of subscribers, views, and video uploads.
+- **Analyze Content Trends**: Understand which content types are performing better and detect any seasonal or monthly patterns in video uploads.
+- **Guide Strategic Decisions**: Use these insights to improve content strategies, such as focusing on high-engagement periods, optimizing video frequency, or tailoring content to boost views and subscribers.
+
+In summary, this code helps in analyzing both macro-level channel performance and micro-level video details, providing a comprehensive view of YouTube performance for content creators or marketers.
+
+
+
+
+
 
 **Platform:** YouTube  
 **API Used:** YouTube Data API v3  
@@ -315,7 +407,6 @@ In this lab, you will use the YouTube Data API v3 to retrieve and analyze statis
 
 ---
 
-### **2. API Setup**
 
 **Imports:**
 
@@ -327,7 +418,7 @@ from matplotlib import pyplot as plt
 import json
 ```
 
-**API Key and YouTube Object Initialization:**
+**2. API Key and YouTube Object Initialization:**
 
 ```python
 api_key = 'AIzaSyBT3GkJ8WUvdum1PGd3aFAXHc3eXgs19Sg'
@@ -635,7 +726,6 @@ ax2 = sns.barplot(x='Month', y='size', data=videos_per_month)
 ```
 
 - **Purpose**: Uses Seaborn to create a bar plot of the number of videos per month. This visual representation helps in understanding the distribution of video uploads throughout the year.
-
 
 
 ---

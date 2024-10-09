@@ -985,8 +985,9 @@ plt.show()
 **Code:**
 
 ```python
-# Calculate cluster means for features
-cluster_profiles = video_data.groupby('Cluster').mean()
+# Select only numeric columns for calculating cluster means
+numeric_columns = video_data.select_dtypes(include=['float64', 'int64']).columns
+cluster_profiles = video_data.groupby('Cluster')[numeric_columns].mean()
 
 print("Cluster Profiles:\n", cluster_profiles)
 
